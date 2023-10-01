@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nearest E-Waste Recyclers</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Find Nearest E-Waste Recyclers</h1>
+    <form id="locationForm">
+        <label for="city">City:</label>
+        <input type="text" id="city" name="city" placeholder="Enter your city" required>
+        <button type="submit">Find Nearest Recyclers</button>
+    </form>
+    <div id="recyclerList">
+        <h2>Nearest E-Waste Recyclers: </h2>
+        <ul id="recyclers"></ul>
+    </div>
+    <div id="map"></div>
+    <script src="script.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nearest E-Waste Recyclers</title>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Acme&family=Anton&family=Bree+Serif&family=Bungee+Spice&family=Caprasimo&family=Concert+One&family=Lilita+One&family=Lobster&family=Passion+One&display=swap" rel="stylesheet">
+
+ </head>
+ <style>
+    body{
+        width: auto;
+        background:linear-gradient(125deg,rgb(238, 137, 137),rgb(223, 243, 3));
+        font-family: 'Bree Serif', serif;
+        
+    }
+    .container{
+        margin-top: 40px;
+        text-align: center;
+        border: 3px solid red;
+        background:linear-gradient(125deg,rgb(0, 140, 255),green);
+        font-size: 25px;
+        margin-left: 40px;
+        margin-right: 40px;
+        color: white;
+        
+    }
+    form input{
+        padding: 10px;
+        font-weight: bolder;   
+    }
+    form button{
+      padding: 10px;
+      font-weight: bolder;
+      cursor: pointer;
+    }
+
+ </style>
+<body>
+    <div class="container">
+    <h1>Find Nearest E-Waste Recyclers</h1>
+    <form id="locationForm">
+        <label for="city">City:</label>
+        <input type="text" id="city" name="city" placeholder="Enter your city" required>
+        <button type="submit">Find Nearest Recyclers</button>
+    </form>
+    <div id="recyclerList">
+        <h2>Nearest E-Waste Recyclers: </h2>
+        <ul id="recyclers"></ul>
+    </div>
+    <div id="map"></div>
+    <script src="script.js"></script>
+    
+    </div>
+</body>
+</html>
+

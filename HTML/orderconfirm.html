@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Confirmation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(115deg,#5f5659d4,#f7ffe3);
+        }
+
+        .container {
+            width: 80%;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            margin-top: 100px;
+            background:linear-gradient(115deg,#4ca1af,#c4e0e5);
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        .confirmation-message {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .tracking-options {
+            margin-top: 30px;
+        }
+
+        .tracking-option {
+            margin-bottom: 10px;
+        }
+
+        .tracking-option label {
+            font-weight: bold;
+        }
+
+        .tracking-option select {
+            width: 100%;
+            padding: 5px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Order Confirmation</h2>
+        <div class="confirmation-message">
+            <p>Your delivery has been placed successfully.</p>
+            <p>It will reach you within a week.</p>
+        </div>
+        <div class="tracking-options">
+            <p>Track your order:</p>
+            <div class="tracking-option">
+                <label for="packed-status">Packed Status:</label>
+                <select id="packed-status">
+                    <option value="not_packed">Not Packed</option>
+                    <option value="packed" selected>Packed</option>
+                </select>
+            </div>
+            <div class="tracking-option">
+                <label for="shipped-status">Shipped Status:</label>
+                <select id="shipped-status">
+                    <option value="not_shipped">Not Shipped</option>
+                    <option value="shipped" selected>Shipped</option>
+                </select>
+            </div>
+            <div class="tracking-option">
+                <label for="delivered-status">Delivered Status:</label>
+                <select id="delivered-status">
+                    <option value="not_delivered">Not Delivered</option>
+                    <option value="delivered" selected>Delivered</option>
+                </select>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

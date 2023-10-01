@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tell about product</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Roboto+Mono&family=Ubuntu:wght@300;500&display=swap');
+      </style>
+      <!-- font-family: 'Open Sans', sans-serif;
+      font-family: 'Roboto Mono', monospace;
+      font-family: 'Ubuntu', sans-serif; -->
+    <style>
+        /* CSS Reset */
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body ::before{
+            /* opacity: 0.5; */
+        }
+        body {
+            display: flex;
+            flex-direction: column;
+            color: black;
+            height: 100vh;
+            width: 100vw;
+            padding: 10px;
+            background-color: #000000b0;
+
+            /* background: linear-gradient(115deg, #05073A,#DC0606DA); */
+            /* background: linear-gradient(115deg, #11998E , #38EF7D); */
+            /* background-image: url(../image/bg4.jpg);*/
+            font-weight: bold;
+            opacity: 1.7;
+        }
+
+
+        .container {
+            position: sticky;
+            overflow-x: hidden ;
+            display: flex;
+            flex-direction: column;
+            
+            background: linear-gradient(135deg, #4E65FF , #92EFFD);
+            background-color: rgb(85, 241, 85);
+            /* background-image: url(../image/bg1.jpg); */
+            border-radius: 25px;
+            max-width: 850px;
+            width: 100%;
+            /* max-height: 700px; */
+            height: 100%;
+            margin: auto;
+            margin-top: 40px;
+            padding: 25px 30px;
+            box-shadow: 4px 4px 10px rgb(120, 246, 255) ;
+        }
+
+        .container .heading {
+            font-size: 30px;
+            font-weight: bold;
+            text-align: center;
+            position: relative;
+            padding-top: 0px;
+            padding-bottom: 10px;
+            color: white;
+
+        }
+
+        .container .heading::before {
+            content: "";
+            position: absolute;
+            height: 3px;
+            width: 100%;
+            background: linear-gradient(135deg, #0003ca , #ef3e38);
+            left: 0px;
+            bottom: 0px;
+        }
+
+
+
+        .container form .box {
+            margin-top: 15px;
+
+        }
+
+        .container form .box .rgform {
+            width: 100%;
+            margin: 10px;
+            font-size: 1.7rem;
+        }
+
+        form input{
+            font-size: 1.1rem;
+            margin: 10px 27px;
+            text-align: center;
+            display: inline-block;
+            padding: 7px 57px;
+            width: 300px;
+            border-radius: 7px;
+            background-color: whitesmoke;
+            color: black;
+        }
+
+    textarea
+ {
+    font-size: 1.5rem;
+    width: 49%;
+    height: 100px;
+    margin-top: 20px;
+    margin-left: 352px;
+
+        }
+        #check{
+            height: 20px;
+        }
+
+        .container button {
+            display: block;
+            width: 50%;
+            margin: auto;
+            margin-top: 30px;
+            font-size: 30px;
+            padding: 1px 0px;
+            border-radius: 1px;
+            border-color: transparent;
+            color: white;
+            /* background: linear-gradient(115deg, #05073aaf,#dc0606a5); */
+            /* background: linear-gradient(115deg,  #11998E , #38EF7D); */
+            background-color: #000000de;
+
+            cursor: pointer;
+             font-weight: 400;
+        }
+
+        @media only screen and (min-width:450px) and (max-width:820px) {
+            header {
+                font-size: 25px;
+            }
+
+            .container .heading {
+                font-size: 25px;
+
+            }
+            
+        .container form .box .rgform {
+            
+            margin: 7px;
+            font-size: 1.3rem;
+        }
+   
+        form input,select {
+            font-size: 1.1rem;
+            margin: 7px 15px;
+            padding: 7px 40px;
+            width: 150px;
+           
+        }
+        form select{
+            width: 230px;
+        }
+
+        }
+
+        @media only screen and (max-width:450px) {
+            header {
+                font-size: 20px;
+            }
+            .container{
+                position: fixed;
+            }
+            .container .heading {
+                font-size: 20px;
+
+            }
+            .container form .box .rgform {
+            
+            margin: 7px;
+            font-size: 1.1rem;
+        }
+        form input,select {
+            font-size: 1rem;
+            margin: 5px 12px;
+            padding: 5px 30px;
+            width: 100px;
+           
+        }
+
+        form select{
+               width: 155px;
+        }
+
+        }
+    </style>
+</head>
+
+<body>
+   
+    <main>
+
+        <div class="container">
+            <div class="heading" title="Product Details ">Tell about your Product</div>
+            <form action="submit.html" target="_blank">
+                <div class="box">
+                    <div class="rgform">
+                        <label for="name">Your Name :
+                           &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                        <input type="text" id="name" placeholder="Enter your name" required>
+                    </div>
+                    <div class="rgform">
+                        <label for="poduct">Product Name :
+                      &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                        <input type="text" id="poduct" placeholder="Eg. computer" required>
+                    </div>
+                    <div class="rgform">
+                        <label for="nop">Number of Products :
+                      &nbsp; &nbsp;&nbsp;&nbsp;</label>
+                        <input type="text" id="poduct" placeholder="Eg. 100" required>
+                    </div>
+                    <div class="rgform">
+                        <label for="model">Brand and Model :
+                           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                        <input type="text" id="model" placeholder="Eg.-HP Pavillion 15" required>
+                    </div>
+                    <div class="rgform">
+                        <label for="dop">Date of Purchase : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;</label>
+                        <input type="date" id="dop" required>
+                    </div>
+                    <div class="rgform">
+                        <label for="working">Product is working ?:</label>
+                     <input id="check" type="checkbox">
+
+                    </div>
+                    
+                    <div class="rgform">
+                        <label for="Des">Description of Working Component:</label> <br>
+                        <textarea name="Des" id="" cols="57" rows="7"></textarea>
+                    </div>
+                    <div class="rgform">
+                        <label for="price">Expected Price Point : &nbsp;&nbsp;&nbsp; </label>
+                        <input type="number" placeholder="Enter amount in rs.">
+                    </div>
+                    <!-- <div class="rgform">
+                        <label for="email">Email
+                            :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        </label>
+                        <input type="email" id="email" placeholder="Eg. example@gmail.com" required>
+                    </div> -->
+                    <div class="rgform">
+                        <label for="number">Phone Number : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                        <input type="number" id="number" placeholder="Enter your watsapp No." required>
+                    </div>
+                    <div class="rgform"></div>
+                    <button class="btn">Submit</button> 
+                </div>
+            </form>
+        </div>
+    </main>
+    
+</body>
+
+</html>

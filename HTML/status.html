@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delivery Confirmation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+            background-color: #000000b0;
+
+        }
+
+        .container {
+            width: 80%;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background: linear-gradient(135deg, #4E65FF , #92EFFD);
+
+            /* background-color: #17c0c0; */
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        .message {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .contact-info {
+            margin-top: 30px;
+        }
+
+        .contact-info p {
+            margin: 10px 0;
+        }
+
+        .payment-options {
+            margin-top: 30px;
+        }
+
+        .payment-options label {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        .payment-options input[type="file"] {
+            margin-top: 10px;
+        }
+
+        .place-order-button {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .place-order-button button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .place-order-button button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Delivery Status Confirmation</h2>
+        <p>Your bid for e-waste ID 01 is successful.</p>
+        <p>Our team will contact you soon for more inquiries.</p>
+        <div class="message">
+            <p>Contact our team:</p>
+            <div class="contact-info">
+                <p>Name: Suraj Kumar</p>
+                <p>Phone: 9301264573</p>
+                <p>Name: Vikas Dewangan</p>
+                <p>Phone: +987-654-3210</p>
+            </div>
+        </div>
+        <div class="payment-options">
+            <p>Choose a payment option:</p>
+            <label for="cod">Cash on Delivery</label>
+            <input type="radio" id="cod" name="payment" value="cash_on_delivery" required>
+            <label for="netbanking">Net Banking</label>
+            <input type="radio" id="netbanking" name="payment" value="net_banking">
+            <label for="upi">UPI</label>
+            <input type="radio" id="upi" name="payment" value="upi">
+            <input type="file" id="payment-screenshot" name="payment-screenshot" accept=".jpg, .png, .jpeg">
+            <p>Upload the screenshot after payment.</p>
+        </div>
+        <form action="orderconfirm.html">
+        <div class="place-order-button">
+            <button type="submit" id="place-order">Place Order</button>
+        </div>
+        </form>
+    </div>
+</body>
+</html>

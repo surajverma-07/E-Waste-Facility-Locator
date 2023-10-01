@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Acme&family=Anton&family=Bree+Serif&family=Bungee+Spice&family=Caprasimo&family=Concert+One&family=Lilita+One&family=Lobster&family=Passion+One&display=swap" rel="stylesheet">
+    <style>
+          body {
+            height: 690px;
+            font-family: 'Bree Serif', serif;
+            background: linear-gradient(125deg , #4E65FF , #92EFFD)no-repeat ;
+        }
+        .container {
+           color: white;
+            max-width: 500px;
+            margin: 104px auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            background: linear-gradient(125deg , #C33764  , #1D2671) ;
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        .form-group label {
+            display: block;
+            font-weight: bold;
+        }
+        .form-group input {
+            width: 95%;
+            margin-top: 8px;
+            padding: 10px;
+            padding-right: 2px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+        .form-group input:hover{
+            background-color: rgb(219, 215, 215);
+        }
+        .form-group button {
+            background-color: #007bff;
+            color: #fff;
+            border: 2px solid black;
+            padding: 8px 18px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-family: 'Bree Serif', serif;
+            margin-left: 203px;
+        }
+        .form-group button:hover {
+            background-color: #0056b3;
+        }
+        .container h2{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Login</h2>
+        <form action="home.html" id="loginForm">
+            <div class="form-group">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="form-group">
+                <button type="submit">Login</button>
+            </div>
+        </form>
+    </div>
+    <p id="message"></p>
+    
+    <script src="../JAVASCRIPT/script1.js"></script>
+</body>
+</html>

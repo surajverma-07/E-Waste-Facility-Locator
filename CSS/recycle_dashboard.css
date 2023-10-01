@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 2590px;
+    animation: colorChange 10s linear infinite; /* Apply the animation */
+  background:linear-gradient(125deg,hsl(331, 62%, 80%),#000000);
+}
+.heading{
+    display: block;
+    font-size: 35px;
+    margin-left: 70px;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    height: 600px;
+}
+
+.recycler-form, .enquiries-list, .map {
+    /* flex-basis: calc(33.33% - 20px); */
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.recycler-form {
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    background:linear-gradient(125deg,hsl(160, 100%, 49%),#2600ff);
+    border: 5px solid black;
+    border-radius: 10px;
+    /* Add styles for the recycler form */
+}
+
+.enquiries-list {
+    border: 5px solid black;
+    border-radius: 10px;
+    font-size: 30px;
+    width: 500px;
+    background:linear-gradient(125deg,hsl(160, 100%, 49%),#2600ff);
+    /* Add styles for the enquiries list *
+    */
+
+}
+
+#enquiries {
+    list-style-type: none;
+    padding: 0;
+}
+
+#enquiries li {
+    margin: 10px 0;
+}
+
+.map {
+    /* Add styles for the map */
+    width: 500px;
+    margin-bottom: 800px;
+    height: 400px;
+    margin-right: 30px;
+    text-align: center;
+    font-size: 25px;
+    border: 5px solid black;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    background:linear-gradient(125deg,hsl(160, 100%, 49%),#2600ff);
+}
+
+#map {
+    width: 100%;
+    height: 300px; /* Set an appropriate height for the map */
+    background: url(../image/map.png);
+}
+
+ .status button{
+    border: 2px solid black;
+    font-family: 'Bree Serif', serif;
+    padding: 8px;
+    font-size: 1px;
+    border-radius: 5px;
+    background-color: cyan;
+    margin-left: 900px;
+    height: 57px;
+    width: 200px;
+ }
+ .status button a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    font-size: 1.4rem;
+ }
+
+ 
+
+ 
+ 
+

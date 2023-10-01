@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Acme&family=Anton&family=Bree+Serif&family=Bungee+Spice&family=Caprasimo&family=Concert+One&family=Lilita+One&family=Lobster&family=Passion+One&display=swap" rel="stylesheet">
+    <style>
+        .container h2{
+            text-align: center;
+           
+        }
+        body {
+            font-family: 'Bree Serif', serif;
+            background: linear-gradient(125deg , #4E65FF , #92EFFD) ;
+        }
+        .container {
+            max-width: 500px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            background: linear-gradient(125deg , #C33764  , #1D2671) ;
+        }
+        .container h2{
+            color: rgb(255, 255, 255);
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        .form-group label {
+            display: block;
+            font-weight: bold;
+            color: white;
+        }
+        .form-group input {
+            width: 95%;
+            margin-top: 8px;
+            padding: 10px;
+            padding-right: 2px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+        .form-group input:hover{
+            background-color: rgb(219, 215, 215);
+        }
+        .form-group button {
+            background-color: #007bff;
+            color: #fff;
+           border-radius: 10px;
+            padding: 10px 20px;
+            border-radius: 3px;
+            cursor: pointer;
+            margin-left: 203px;
+            border: 2px solid black;
+            
+        }
+        .form-group button:hover {
+            background-color: #0056b3;
+        }
+
+    footer{
+        text-align: right;
+        color: white;
+    }
+    footer button{
+        color: rgb(255, 255, 255);
+        background-color: #007bff;
+        padding: 5px;
+        border: 3px solid black;
+        font-family: 'Bree Serif', serif;
+       
+    }
+    footer a{
+        color: white;
+    }
+    footer button:hover {
+        cursor: pointer;
+            background-color: #0056b3;
+           
+        }
+    </style>
+  
+  <!-- <script src="script1.js"></script> -->
+</head>
+<body>
+    <div class="container">
+        <h2>Sign Up</h2>
+        <form 
+         id="form-signup">
+            <div class="form-group">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone Number:</label>
+                <input type="text" id="phone" name="contact" required>
+            </div>
+            <div class="form-group">
+                <label for="State">State:</label>
+                <input type="text" id="State" name="state" required>
+            </div>
+            <div class="form-group">
+                <label for="City">City:</label>
+                <input type="text" id="City" name="city" required>
+            </div>
+            <div class="form-group" id="btn-signup">
+                <button type="submit">Sign Up</button>
+            </div>
+        </form>
+        <footer>
+            <div>
+                Already have an account?
+              <button ><a href="login.html">login</a> </button>
+            </div>
+        </footer>
+    </div>
+
+<script src="../JAVASCRIPT/index.js"></script>
+
+</body>
+</html>

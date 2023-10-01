@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.recycler-form, .enquiries-list, .map {
+    flex-basis: calc(33.33% - 20px);
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.recycler-form {
+    /* Add styles for the recycler form */
+}
+
+.enquiries-list {
+    /* Add styles for the enquiries list */
+}
+
+#enquiries {
+    list-style-type: none;
+    padding: 0;
+}
+
+#enquiries li {
+    margin: 10px 0;
+}
+
+.map {
+    /* Add styles for the map */
+}
+
+#map {
+    width: 100%;
+    height: 300px; /* Set an appropriate height for the map */
+}
