@@ -1,0 +1,26 @@
+main {
+    padding: 20px;
+    background-color: whitesmoke;
+  }
+  #about1{
+    font-size: 70px;
+    font-weight: 600;
+    /* margin-left: -20px; */
+    text-align: center;
+    padding-right: 60px;
+
+  }
+  #aboutsection{
+    display: flex;
+  }
+  #about-content{
+    font-size: 30px;
+    padding: 50px 70px;
+    font-weight: 500;
+    color: gray;
+    margin: auto;
+    line-height: 1.7;
+  }
+  #right-image{
+margin-top: 40px;
+  }

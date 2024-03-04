@@ -4,107 +4,184 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>E-waste locator</title>
-    <link rel="stylesheet" href="../CSS/f.CSS">
-    <link rel="stylesheet" href="text/css"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="shortcut icon" type="x-icon" href="../image/logo.png">
+    <title>E-waste Finder</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../CSS/about.css">
+    <link rel="stylesheet" href="../CSS/services.css">
+    <link rel="stylesheet" href="../CSS/feedback.css">
+    <link rel="stylesheet" href="../CSS/contact.css">
 
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Martian+Mono&family=Open+Sans:wght@400;500&family=Roboto+Mono&family=Ubuntu:wght@300;500&display=swap');
-    </style>
-
+        </style>
+  <script src="https://kit.fontawesome.com/6bdc63e110.js" crossorigin="anonymous"></script>
+  
 </head>
 
 <body>
 
-
-    <div class="container">
-        <div id="wrapper">
-
-            <div id="navbar-core">
-                <a href="#" class="navbar-item">Home</a>
-                <a href="#" class="navbar-item">Location</a>
-                <a href="#" class="navbar-item">About Us</a>
-                <a href="#" class="navbar-item">Services</a>
-                <a href="#" class="navbar-item" id="login">Login/Signup</a>
-            </div>
-
-        </div>
-    </div>
+  <main class="main-container">
+    <header id="nav">
+        <!-- <div class="logo-container"><img src="./assets/images/surajlogo.png" alt="Suraj Verma"></div> -->
+        <div class="logo-container"><img src="../image/logo.png" alt="Suraj Verma"></div>
+    
+        <nav>
+          <div class="nav-element"><a href="#home"><span>Home</span></a></div>
+          <div class="nav-element"><a href="#about1"><span>About</span></a></div>
+          <div class="nav-element"><a href="#services"><span>Services</span></a></div>
+    
+          <div class="nav-element"><a href="#contact"><span>Contact Us</span></a></div>
+    
+        </nav>
+      </header>
     <div class="row">
         <div class="col">
             <div class="flex">
-                <div class="header">E-Waste Locator</div>
-                
+                <div class="header">
+                 
+                    <div>E-Waste Facility Locator</div>
+                    <div class="slogan flex"> Recycle the Future, Dispose of E-waste Responsibly  
+                        <button class="btn btne" type="submit" onclick="window.location.href='#about1'" >Explore more</button>
+                    </div>
+
+
+                </div>
                 <div class="links">
-                    <a href="form.html" target="_blank">
+                    <a href="./form.html" target="_blank">
+                    <!-- <a href="./HTML/form.html" target="_blank"> -->
                         <button type="button">Sell Product</button>
                     </a>
-                    <a href="information.html" target="_blank">
+                    <a href="./information.html" target="_blank">
                         <button type="button">Our Products</button>
                     </a>
-                    <a href="credit.html">
+                    <a href="./credit.html">
                         <button type="button">Credit Points</button>
                     </a>
                 </div>
                 <div class="cards">
-                    <div class="card"> </div>
-                    <div class="card-1"> </div>
+                    <div class="card1 card"> </div>
+                    <div class="card-1 card"> </div>
                 </div>
                 <div class="cards-1">
-                    <div class="card-2"> </div>
-                    <div class="card-3"> </div>
+                    <div class="card-2 card"> </div>
+                    <div class="card-3 card"> </div>
                 </div>
             </div>
         </div>
     </div>
 
     </div>
-    <div class="para">
+        <div class="para">
+    <!-- <marquee > -->
+
         <p>E-waste: Where old technology meets new opportunities for sustainability </p>
-    </div>
-    <footer class="footer">
-        <div class="container2">
+    <!-- </marquee> -->
 
-            <div class="footer-col" id="one">
-                <h4>company</h4>
-                <ul>
-                    <li><a href="#">about us</a></li>
-                    <li><a href="#">our services</a></li>
-                    <li><a href="#">privacy policy</a></li>
-                    <li><a href="#">affiliate program</a></li>
-                </ul>
+        </div>
+  </main>
+
+    <hr>
+
+    <main>
+        <section class="about">
+          <h2 class="center" id="about1">About Us</h2>
+        <div id="aboutsection">
+            <div id="about-content" >At E-Waste Finder, we're committed to addressing the pressing problem of electronic waste disposal. Millions of tons of discarded electronic devices threaten the environment and human health annually. We provide a convenient solution by collecting e-waste from individuals and businesses, ensuring proper recycling. Our dedicated team transports the products to authorized recyclers in India, following best practices. Join us in creating a cleaner, more sustainable future by contributing to resource conservation and reducing environmental pollution. Together, we can make a difference.</div>
+              <div id="right-images">
+                  <img src="../image/ewaste.png"  alt="ewaste">
+              </div>
+        </div>
+    
+        </section>
+      </main>
+
+      <hr>
+
+      <section class="services" id="services">
+        <h2>What We Offer</h2>
+        <div id="what">
+            <div id="right-image">
+                <img src="../image/bg8.jpeg" hei'100px alt="ewaste">
             </div>
-            <div class="footer-col" id="two">
-                <h4>get help</h4>
-                <ul>
-                    <li><a href="#">FAQ</a></li>
-                    <li><a href="#">shipping</a></li>
-                    <li><a href="#">returns</a></li>
-                    <li><a href="#">order status</a></li>
-                    <li><a href="#">payment options</a></li>
-                </ul>
+            <ul>
+                <li>Pickup of electronic waste from your location</li>
+                <li>Environmentally responsible disposal of e-waste</li>
+                <li>Collaboration with authorized recyclers in India</li>
+                <li>Transparent and ethical recycling process</li>
+                <li>Contribution to a cleaner and safer environment</li>
+            </ul>
+        </div>
+    </section>
+   
+    <hr>
+
+    <header>
+        <h1>Feedback</h1>
+    </header>
+    <section class="feedback-container">
+        <div class="feedback-item">
+            <h2>Ojaswat Dixit</h2>
+         <div>Effortlessly disposed of my old electronics through E-Waste Finder! Simple process and great to know my e-waste is being responsibly recycled
+           </div>
+        </div>
+        <div class="feedback-item">
+            <h2>Kaustabh Sahu</h2>
+            <div>
+                Impressed with the efficiency of E-Waste Finder's service. Collected my electronics promptly and handled the recycling process seamlessly.
+               </div>
+        </div>
+        <div class="feedback-item">
+            <h2>Pranjal Shrivas</h2>
+            <div>
+                Highly recommend E-Waste Finder for anyone looking to dispose of electronic waste responsibly. A reliable and eco-friendly solution!</div>
+        </div>
+    </section>
+ 
+       <hr> 
+
+    <section>
+     <div class="center" id="contact" >Contact Us</div>
+    <div class="contact-container">
+        
+        <div class="contact-info">
+            <h1>Get in touch:</h1>
+            <p>Fill in the form to start a conversation</p>
+            <div class="contact-detail">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-map-pin">
+                    <path d="M21 10c0 6-9 13-9 13s-9-7-9-13a9 9 0 0 1 18 0z"></path>
+                    <circle cx="12" cy="10" r="3"></circle>
+                </svg>
+                <span> Deepak Nagar , Durg Chhattisgarh</span>
             </div>
-            <!-- <div class="footer-col">
-                    <h4>online shop</h4>
-                    <ul>
-                        <li><a href="#">watch</a></li>
-                        <li><a href="#">bag</a></li>
-                        <li><a href="#">shoes</a></li>
-                        <li><a href="#">dress</a></li>
-                    </ul>
-                </div> -->
-            <div class="footer-col">
-                <h4>follow us</h4>
-                <div class="social-links">
-                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                </div>
+            <div class="contact-detail">
+              <i class="fa-solid fa-phone"></i>
+                
+                <span> +91 6266939975</span>
+            </div>
+            <div class="contact-detail">
+           <i class="fa-regular fa-envelope"></i>
+                
+                <span> surajkumarverma662@gmail.com</span>
             </div>
         </div>
-    </footer>
+        <form class="contact-form" method="post" action="https://api.web3forms.com/submit">
+            <input type="hidden" name="access_key" value="cf26a260-c394-4c1c-9d1a-b91b5019540a">
+            <input type="text" name="name" placeholder="Full Name" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <input type="tel" name="number" placeholder="Contact Number" required>
+            <button type="submit" >Submit</button>
+        </form>
+    </div>
+    </section>
+
+    <footer>
+        <div class="centers" style="text-align: center;">
+          Copyright &copy; www.ewastefinder.com All rights reserve
+        </div>
+      </footer>
+
+   
 
 </body>
 

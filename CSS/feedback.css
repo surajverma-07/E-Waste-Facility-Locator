@@ -1,0 +1,32 @@
+header h1{
+    font-size: 72px;
+    color: rgb(66, 255, 117);
+    font-weight: 600;
+    margin-left: 40%;
+}
+.feedback-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    height: 300px;
+}
+
+.feedback-item {
+    width: 30%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.feedback-item h2 {
+    font-size: 40px;
+    color: grey;
+    margin-bottom: 15px;
+}
+
+.feedback-item div {
+    line-height: 1.5;
+    color: gray;
+    font-size: 1.5rem;
+}
